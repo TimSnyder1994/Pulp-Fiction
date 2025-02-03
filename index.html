@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>單身即地獄 4 演員名單</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+	<style>
+		body{
+			  font-family: "Noto Sans TC",sans-serif;
+			  background-color: black;
+			  height: 1200px;
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}	
+		.wrap{
+			width: 1900px;
+			margin: auto;
+			background-color: black;
+		}
+		.heading{
+			width: 100%;
+			height: 65px;
+		}
+		.nvlogo img{
+			position: fixed;
+			width: 100px;
+		}
+		.titleBox{
+			position: relative;
+			width: 245px;
+			height: 440px;
+			float: left;
+		}
+		.titleBox2{
+			position: relative;
+			width: 210px;
+			height: 440px;
+			float: left;
+		}
+		.titleBox h1{
+			position: fixed;
+			font-size: 40px;
+			line-height: 80px;
+			color: whitesmoke;
+		}
+		h2{
+			color: whitesmoke;
+			text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+		}
+		.Bro-rolling{
+			position: absolute;
+			width: 230px;
+			height: 440px;
+			white-space: nowrap; /*white-space 處理空白符號、換行字元的語法 nowrap 強制不換行*/
+			overflow: hidden;
+		}
+		.Bro-rolling h3{
+			font-size: 65px;
+			line-height: 680px;
+			color: whitesmoke;
+			text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+			opacity: 0.4;
+			margin: 0 300px;
+		}
+		.contain01, .contain02 {
+			display: flex;
+  			justify-content: center;
+		}
+		.actorBox{			
+			width: 230px;
+			height: 440px;
+			margin: 5px;
+			overflow: hidden;
+			border-radius: 10px;
+		}
+		#FelixChen{
+			opacity: 0;
+		}
+		.igBox{
+			position: absolute;
+			width: 230px;
+			height: 50px;
+			z-index: 1; /* 優先層級:1(數字越大層級越高) */
+		}
+		.igBox a{
+			position: absolute;
+			margin: -6px 200px;
+			opacity: 0;
+			transition: .3s;
+		}
+		.fa-brands{
+			font-size: 25px;
+			color: whitesmoke;
+		}
+		.imgBox{
+			position: relative;
+			width: 100%;
+			height: 100%;
+			float: left;
+		}
+		/* 新增黑色漸層 */
+		.imgBox::after {
+   			content: "";
+    		position: absolute;
+    		bottom: 0;
+   			left: 0;
+    		width: 100%;
+    		height: 30%; /* 調整漸層範圍 */
+    		background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    		/*linear-gradient 線性漸層 to top 由下往上*/
+    		pointer-events: none; /* 防止影響點擊,如果以後有a標籤會被擋到再加也可以 */
+		}
+		.imgBox img{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;  
+			transition: .3s;
+			transform: scale(1);
+		}
+		.nameBox{
+			position: absolute;
+			width: 230px;
+			margin: 370px 0px 0px;
+			transition: .3s;
+		}
+		.nameBox h2{
+			position: relative;
+			font-size: 22px;
+			text-align: center;
+			filter: brightness(0.9);
+			transition: .3s;
+			z-index: 2;
+		}
+		.textBox{
+			position: absolute;
+			width: 230px;
+			height: 440px;
+			overflow: hidden;
+		}
+		.textBox p{
+			position: absolute;
+   			width: 230px;
+   			margin: 420px 0px 0px;
+			transition: .3s;
+			text-align: center;
+			opacity: 0; /*opacity 不透明度*/
+			color: whitesmoke;
+			text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+		}
+		.actorBox:hover img{
+			transform: scale(1.1);
+		}
+		.scale-none{
+			transform: scale(1);
+		}
+		.actorBox:hover #change-pic{
+   		    transform: scale(1.1);
+            opacity: 0;
+            transition: transform .3s, opacity 0.3s .8s;
+		}
+		.actorBox:hover h2{
+			font-size: 24px;
+			filter: brightness(1);
+		}
+		.actorBox:hover .textBox p{
+   			margin: 407px 0px 0px;
+   			opacity: 1;
+		}
+		.actorBox:hover a{
+   			opacity: 0.9;
+   			margin: 6px 200px;
+		}
+		.actorBox:hover h3{
+			margin: 0 -300px;
+			transition: 2.5s .2s cubic-bezier(.64,.89,.72,.01);
+          /*transition: 漸變樣式 動畫時間 延遲時間 cubic-bezier(x1,y1,x2,y2);*/
+		}
+		#FelixChen:hover{
+			opacity: 1;
+			transition: .3s
+		} 
+		.pepe{
+			width: 50px;
+			float: right;
+		}
+		.clearfix::after {
+	    content: "";
+	    display: block;
+	    clear: both;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="heading">
+			<div class="nvlogo">
+				<img src="https://cdn1.iconfinder.com/data/icons/logos-brands-in-colors/7500/Netflix_Logo_RGB-512.png" alt="">
+			</div>
+		</div>
+		<div class="titleBox">
+			<h1>單身即地獄４</h1>
+		</div>
+		<div class="contain01">
+			<div class="actorBox">
+				<div class="imgBox">
+					<img src="https://i.imgur.com/LUz35cY.jpeg" alt="">
+				</div>
+				<div class="igBox">
+					<a target="_blank" href="https://www.instagram.com/youseeany?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<div class="nameBox">
+					<h2>李時安</h2>
+				</div>
+				<div class="textBox">
+					<p></p>
+				</div>
+			</div>
+			<div class="actorBox">
+				<div class="imgBox">
+					<img src="https://i.imgur.com/yaditHi.jpeg" alt="" class="scale-none">
+					<img src="https://i.imgur.com/j2QLQSy.jpeg" alt="" id="change-pic">
+				</div>
+				<div class="igBox">
+					<a target="_blank" href="https://www.instagram.com/youjini1225?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<div class="nameBox">
+					<h2>鄭裕陳</h2>
+				</div>
+				<div class="textBox">
+					<p></p>
+				</div>
+			</div>
+			<div class="actorBox">
+				<div class="imgBox">
+					<img src="https://i.imgur.com/JhIXpZJ.jpeg" alt="">
+				</div>
+				<div class="igBox">
+					<a target="_blank" href="https://www.instagram.com/kimminseoll?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<div class="nameBox">
+					<h2>金珉楔</h2>
+				</div>
+				<div class="textBox">
+					<p>珉(ㄇㄧㄣˊ) 楔(ㄒㄧㄝ )</p>
+				</div>
+			</div>
+			<div class="actorBox">
+				<div class="imgBox">
+					<img src="https://i.imgur.com/gGJGJEY.jpeg" alt="">
+				</div>
+				<div class="igBox">
+					<a target="_blank" href="https://www.instagram.com/bxxyon?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<div class="nameBox">
+					<h2>裴智妍</h2>
+				</div>
+				<div class="textBox">
+					<p>裴(ㄆㄟˊ)</p>
+				</div>
+			</div>
+			<div class="actorBox">
+				<div class="imgBox">
+					<img src="https://i.imgur.com/Hl8PuKx.jpeg" alt="">
+				</div>
+				<div class="igBox">
+					<a target="_blank" href="https://www.instagram.com/07_27___?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<div class="nameBox">
+					<h2>金慧真</h2>
+				</div>
+				<div class="textBox">
+					<p></p>
+				</div>
+			</div>
+			<div class="actorBox">
+				<div class="imgBox">
+					<img src="https://i.imgur.com/OURzd4N.jpeg" alt="">
+				</div>
+				<div class="igBox">
+					<a target="_blank" href="https://www.instagram.com/arinin_dd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<div class="nameBox">
+					<h2>金我璘</h2>
+				</div>
+				<div class="textBox">
+					<p>璘(ㄌㄧㄣˊ)</p>
+				</div>
+			</div>
+			<div class="actorBox">
+				<div class="imgBox">
+					<img src="https://i.imgur.com/YO6bS5F.jpeg" alt="">
+				</div>
+				<div class="igBox">
+					<a target="_blank" href="https://www.instagram.com/qkrgofls?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<div class="nameBox">
+					<h2>朴海潾</h2>
+				</div>
+				<div class="textBox">
+					<p>朴(ㄆㄧㄠˊ)</p>
+				</div>
+			</div>
+		</div>
+		<div class="titleBox2">
+		</div>
+		<div class="contain02">	
+			<div class="actorBox">
+				<div class="imgBox">
+					<img src="https://i.imgur.com/8B6Wx48.jpeg" alt="">
+				</div>
+				<div class="igBox">
+					<a target="_blank" href="https://www.instagram.com/keemtehwan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<div class="nameBox">
+					<h2>金泰煥</h2>
+				</div>
+				<div class="textBox">
+					<p></p>
+				</div>
+				<div class="Bro-rolling">
+					<h3>兄DAY</h3>
+				</div>
+			</div>
+			<div class="actorBox">
+				<div class="imgBox">
+					<img src="https://i.imgur.com/DLYgQxp.jpeg" alt="" class="scale-none">
+					<img src="https://i.imgur.com/Dxo22tF.jpeg" alt="" id="change-pic">
+				</div>
+				<div class="igBox">
+					<a target="_blank" href="https://www.instagram.com/donghokook?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<div class="nameBox">
+					<h2>鞠同鎬</h2>
+				</div>
+				<div class="textBox">
+					<p>鞠(ㄐㄩˊ) 鎬(ㄏㄠ )</p>
+				</div>
+			</div>
+			<div class="actorBox">
+				<div class="imgBox">
+					<img src="https://i.imgur.com/btST1MY.jpeg" alt="">
+				</div>
+				<div class="igBox">
+					<a target="_blank" href="https://www.instagram.com/tachyonproject?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<div class="nameBox">
+					<h2>張泰晤</h2>
+				</div>
+				<div class="textBox">
+					<p>晤(ㄨˋ)</p>
+				</div>
+			</div>
+			<div class="actorBox">
+				<div class="imgBox">
+					<img src="https://i.imgur.com/XLc0kCx.jpeg" alt="">
+				</div>
+				<div class="igBox">
+					<a target="_blank" href="https://www.instagram.com/justsoo_it?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<div class="nameBox">
+					<h2>金淨洙</h2>
+				</div>
+				<div class="textBox">
+					<p></p>
+				</div>
+			</div>
+			<div class="actorBox">
+				<div class="imgBox">
+					<img src="https://i.imgur.com/VQZUQII.jpeg" alt="">
+				</div>
+				<div class="igBox">
+					<a target="_blank" href="https://www.instagram.com/6dory?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<div class="nameBox">
+					<h2>陸俊諝</h2>
+				</div>
+				<div class="textBox">
+					<p>諝(ㄒㄩˇ)</p>
+				</div>
+			</div>
+			<div class="actorBox">
+				<div class="imgBox">
+					<img src="https://i.imgur.com/YBCZAv5.jpeg" alt="">
+				</div>
+				<div class="igBox">
+					<a target="_blank" href="https://www.instagram.com/jh_128_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<div class="nameBox">
+					<h2>安鐘勳</h2>
+				</div>
+				<div class="textBox">
+					<p></p>
+				</div>
+			</div>
+			<div class="actorBox" id="FelixChen">
+				<div class="imgBox">
+					<img src="https://i.imgur.com/Bsgg8Xg.jpeg" alt="">
+				</div>
+				<div class="igBox">
+					<a target="_blank" href="https://www.instagram.com/scorp1o_1994?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<div class="nameBox">
+					<h2>黃旭辰</h2>
+				</div>
+				<div class="textBox">
+					<p></p>
+				</div>
+			</div>
+		</div>
+		<img src="https://media.tenor.com/IxhW90uWjX4AAAAM/pepe-the-frog.gif" alt="" class="pepe">
+		<div class="clearfix">
+		</div>
+	</div>
+</body>
+</html>
