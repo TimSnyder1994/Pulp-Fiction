@@ -37,3 +37,13 @@
 		background-color: pink;
 	}
 }
+@keyframes rainbow-text {
+  0% { color: #FF6347; }
+  14% { color: #FF8C00; }
+  28% { color: #FFD700; }
+  42% { color: #ADFF2F; }
+  57% { color: #1E90FF; }
+  71% { color: #4682B4; }
+  85% { color: #6A5ACD; }
+  100% { color: #FF6347; } /* 循環回到紅色 */
+}
