@@ -34,6 +34,26 @@ body{
 	color: whitesmoke;
 	font-size: 80px;
 }
+.progress-bar{
+	position: fixed;
+	width: 480px;
+	height: 10px;
+	border: solid 2px #9C3268;
+	border-radius: 5px;
+	top: 565px;
+}
+.progress{
+	position: relative;
+	width: 10px;
+	height: 8px;
+	border-radius: 4px;
+	background-color: #9C3268;
+
+	animation-name: loading;
+	animation-duration: 1.4s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
 .banner{
 	position: fixed;
 	width: 100%;
@@ -217,8 +237,8 @@ h2{
 }
 .actorBox:hover .change-pic{
 	transform: scale(1.1);
-    opacity: 0;
-    transition: transform .3s, opacity .3s .8s;
+	opacity: 0;
+	transition: transform .3s, opacity .3s .8s;
 }
 .actorBox:hover h2{
 	font-size: 24px;
@@ -278,5 +298,14 @@ h2{
 	100%{
 		opacity: 1;	
 		transform: translateY(0);
+	}
+}
+@keyframes loading {
+	0%{
+
+	}
+	100%{
+		width: 100%;
+		background-color: pink;
 	}
 }
