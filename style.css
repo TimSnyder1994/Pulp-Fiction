@@ -63,9 +63,10 @@ body{
 	z-index: 3;
 }
 .banner p{
+	position: relative;
 	white-space: nowrap;
 	color: whitesmoke;
-	opacity: 0;
+	transform: translateX(100%); /*將元素沿著X軸(水平)移動自身寬度的100%*/
 
 	animation-name: banner-scrolling;
 	animation-duration: 80s;
