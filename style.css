@@ -70,7 +70,7 @@ body{
 
 	animation-name: banner-scrolling;
 	animation-duration: 80s;
-	animation-delay: 15s;
+	animation-delay: 10s;
 	animation-timing-function: linear; /*animation-timing-function 定義動畫的速度曲線 linear 勻速*/
 	animation-iteration-count: infinite; /*animation-iteration-count: 定義動畫播放次數 infinite 無限*/
 }
